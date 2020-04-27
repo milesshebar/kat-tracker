@@ -12,6 +12,9 @@ const options = {
   uri: "http://knox.ecolane.com/mde.php?q=vehicle_live"
 };
 
+
+
+
 var location = request(options, function(err, res, body) {
   if (err) {
     return console.log(err);
@@ -23,12 +26,16 @@ var location = request(options, function(err, res, body) {
     var jsoniem = JSON.stringify(result);
     result.kml.Document[0].Placemark.forEach(function (el) {
       
-      if (el.name == '124 (MTV-Gamb Evening)') {
+      if (el.name == '124 (MTV-Gamb Evening)' || ) {
         console.log(el.Point[0].coordinates[0]);
+        io.emit("shuttle", el.Point[0].coordinates[0]);
+
       }
       
       if (el.name == '143 (MTV-Gamb Day)') {
         console.log(el.Point[0].coordinates[0]);
+        io.emit("shuttle", el.Point[0].coordinates[0]);
+
       }
       
     });
@@ -40,6 +47,8 @@ var location = request(options, function(err, res, body) {
 });
 
 const app = express();
+var http = require("http").createServer(app);
+var io = require("socket.io")(http);
 
 app.use(express.static("public"));
 
