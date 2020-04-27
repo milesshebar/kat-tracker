@@ -5,15 +5,16 @@ const request = require("request");
 const fs = require("fs");
 const util = require('util')
 const DOMParser = require("xmldom").DOMParser;
-const app = express();
-var http = require("http").createServer(app);
-var io = require("socket.io")(http);
+
 
 const options = {
   method: "GET",
   uri: "http://knox.ecolane.com/mde.php?q=vehicle_live"
 };
 
+const app = express();
+var http = require("http").createServer(app);
+var io = require("socket.io")(http);
 
 function KATkml() {
   request(options, function(err, res, body) {
@@ -24,7 +25,8 @@ function KATkml() {
       var jsoniem = JSON.stringify(result);
       result.kml.Document[0].Placemark.forEach(function (el) {
         if (el.name == '124 (MTV-Gamb Evening)' || el.name == '143 (MTV-Gamb Day)') {
-          io.emit("shuttle", el.Point[0].coordinates[0]);
+          var data = el.Point[0].coordinates[0];
+          io.emit("shuttle", data);
         }      
       });
     });
