@@ -12,14 +12,24 @@ const options = {
   uri: "http://knox.ecolane.com/mde.php?q=vehicle_live"
 };
 
+function test(value, name) {
+  if name == '124 (MTV-Gamb Evening)'
+    console.log(value);
+  
+  else return value;
+}
+
 var location = request(options, function(err, res, body) {
   if (err) {
     return console.log(err);
   }
   var xml = body;
   
-  parseString(xml, function(err, result) {
+  parseString(xml, {
+    valueProcessors: [test]},
+    function(err, result) {
     
+      console.log(result);
     
     
     /*console.log(result.kml.Document[0].Placemark[5].name[0]);
