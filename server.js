@@ -2,16 +2,17 @@
 const express = require("express");
 var parseString = require("xml2js").parseString;
 const request = require("request");
-const tj = require("@tmcw/togeojson");
 const fs = require("fs");
 const util = require('util')
 const DOMParser = require("xmldom").DOMParser;
+const app = express();
+var http = require("http").createServer(app);
+var io = require("socket.io")(http);
 
 const options = {
   method: "GET",
   uri: "http://knox.ecolane.com/mde.php?q=vehicle_live"
 };
-
 
 
 function KATkml() {
@@ -22,9 +23,7 @@ function KATkml() {
     parseString(xml,function(err, result) {
       var jsoniem = JSON.stringify(result);
       result.kml.Document[0].Placemark.forEach(function (el) {
-      
         if (el.name == '124 (MTV-Gamb Evening)' || el.name == '143 (MTV-Gamb Day)') {
-          console.log(el.Point[0].coordinates[0]);
           io.emit("shuttle", el.Point[0].coordinates[0]);
         }      
       });
@@ -33,9 +32,9 @@ function KATkml() {
 
 setInterval(KATkml, 10000);
 
-const app = express();
-var http = require("http").createServer(app);
-var io = require("socket.io")(http);
+io.on("connection", function(socket) {
+  console.log("connected");
+});
 
 app.use(express.static("public"));
 

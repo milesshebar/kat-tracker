@@ -30,8 +30,6 @@
       );
       map.addLayer(osm);
       var markerGroup = L.layerGroup().addTo(map);
-
-      
       
       socket.on("shuttle", function(data) {
         console.log(data);
