@@ -14,37 +14,24 @@ const options = {
 
 
 
+function KATkml() {
+  request(options, function(err, res, body) {
+    if (err) throw err;
+    var xml = body;
 
-var location = request(options, function(err, res, body) {
-  if (err) {
-    return console.log(err);
-  }
-  var xml = body;
-  
-  parseString(xml,function(err, result) {
+    parseString(xml,function(err, result) {
+      var jsoniem = JSON.stringify(result);
+      result.kml.Document[0].Placemark.forEach(function (el) {
       
-    var jsoniem = JSON.stringify(result);
-    result.kml.Document[0].Placemark.forEach(function (el) {
-      
-      if (el.name == '124 (MTV-Gamb Evening)' || ) {
-        console.log(el.Point[0].coordinates[0]);
-        io.emit("shuttle", el.Point[0].coordinates[0]);
-
-      }
-      
-      if (el.name == '143 (MTV-Gamb Day)') {
-        console.log(el.Point[0].coordinates[0]);
-        io.emit("shuttle", el.Point[0].coordinates[0]);
-
-      }
-      
+        if (el.name == '124 (MTV-Gamb Evening)' || el.name == '143 (MTV-Gamb Day)') {
+          console.log(el.Point[0].coordinates[0]);
+          io.emit("shuttle", el.Point[0].coordinates[0]);
+        }      
+      });
     });
-    
-    /*console.log(result.kml.Document[0].Placemark[5].name[0]);
-    console.log(result.kml.Document[0].Placemark[5].Point[0].coordinates[0]);
-    return result.kml.Document[0].Placemark[10].Point[0].coordinates[0];*/
-  });
-});
+  })};
+
+setInterval(KATkml, 10000);
 
 const app = express();
 var http = require("http").createServer(app);
