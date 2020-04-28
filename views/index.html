@@ -8,7 +8,7 @@
     <script src="./L.KML.js"></script>
   </head>
   <body>
-    <div style="width: 100%; height: 50%" id="map"></div>
+    <div style="width: 100%; height: 100%" id="map"></div>
     <script src="https://unpkg.com/socket.io-client@2.3.0/dist/socket.io.js"></script>
     <script>
       var socket = io();
@@ -17,14 +17,14 @@
         zoom: 14
       });
      
-      map.dragging.disable();
+      /*map.dragging.disable();
       map.touchZoom.disable();
       map.doubleClickZoom.disable();
       map.scrollWheelZoom.disable();
       map.boxZoom.disable();
       map.keyboard.disable();
       if (map.tap) map.tap.disable();
-
+*/
       
       const osm = new L.TileLayer(
         "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -43,8 +43,8 @@
             const kml = parser.parseFromString(kmltext, "text/xml");
             var track = new L.KML(kml);
             track.addTo(markerGroup);
-            const bounds = track.getBounds();
-            map.fitBounds(bounds);
+            //const bounds = track.getBounds();
+            //map.fitBounds(bounds);
           });
       });
       
