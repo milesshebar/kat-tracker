@@ -837,39 +837,21 @@
 	</StyleMap>
 
 	          <Placemark>
-	             <styleUrl>#live_routeaccept</styleUrl>
-	             <name>118 (Mid Day 4)</name>
-	             <visibility>1</visibility>
-	             <Point>
-	               <coordinates>-82.47245999999998,40.401789</coordinates>
-	             </Point>
-	              <description>
-	                   
-		Run: Mid Day 4
-		Time: 14:49:02
-		Event: Cluster accept
-		Speed: 0.7 mph
-		Direction: 7 degrees from north
-		Accuracy: 0 feet
-		Odometer: 136903.7
-		
-	              </description></Placemark>
-	          <Placemark>
 	             <styleUrl>#live_gps</styleUrl>
 	             <name>118 (Mid Day 4)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.47245999999998,40.401789</coordinates>
+	               <coordinates>-82.48653399999999,40.395242</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: Mid Day 4
-		Time: 14:49:02
+		Time: 15:01:06
 		Event: Gps
-		Speed: 0.7 mph
-		Direction: 7 degrees from north
+		Speed: 17 mph
+		Direction: 184.5 degrees from north
 		Accuracy: 0 feet
-		Odometer: 136903.7
+		Odometer: 136906.3
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -877,17 +859,35 @@
 	             <name>121 (PM 7)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.45762299999998,40.40064399999999</coordinates>
+	               <coordinates>-82.461027,40.398939</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: PM 7
-		Time: 14:49:12
+		Time: 15:00:32
 		Event: Gps
-		Speed: 0.2 mph
-		Direction: 147.6 degrees from north
+		Speed: 20.4 mph
+		Direction: 250.7 degrees from north
 		Accuracy: 0 feet
-		Odometer: -13699521.6
+		Odometer: -13699521.3
+		
+	              </description></Placemark>
+	          <Placemark>
+	             <styleUrl>#live_routeaccept</styleUrl>
+	             <name>121 (PM 7)</name>
+	             <visibility>1</visibility>
+	             <Point>
+	               <coordinates>-82.461027,40.398939</coordinates>
+	             </Point>
+	              <description>
+	                   
+		Run: PM 7
+		Time: 15:00:32
+		Event: Cluster accept
+		Speed: 20.4 mph
+		Direction: 250.7 degrees from north
+		Accuracy: 0 feet
+		Odometer: -13699521.3
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -895,17 +895,17 @@
 	             <name>125 (1 City Shttl PM)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.485052,40.398385</coordinates>
+	               <coordinates>-82.487278,40.386621</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: 1 City Shttl PM
-		Time: 14:36:11
+		Time: 14:55:16
 		Event: Gps
-		Speed: 9.2 mph
-		Direction: 183.8 degrees from north
+		Speed: 0.4 mph
+		Direction: 1.3 degrees from north
 		Accuracy: 0 feet
-		Odometer: 68551.3
+		Odometer: 68551
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -913,17 +913,17 @@
 	             <name>127 (3 Ciy Med Pm)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.47153000000002,40.388557</coordinates>
+	               <coordinates>-82.48209500000002,40.389534999999995</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: 3 Ciy Med Pm
-		Time: 14:48:44
+		Time: 15:00:46
 		Event: Gps
-		Speed: 16.8 mph
-		Direction: 284.1 degrees from north
+		Speed: 0 mph
+		Direction: 250.6 degrees from north
 		Accuracy: 0 feet
-		Odometer: 59757.9
+		Odometer: 59758.5
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -931,35 +931,53 @@
 	             <name>129 (2 City Shtt pm)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.48858400000002,40.390439</coordinates>
+	               <coordinates>-82.48282700000001,40.390308</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: 2 City Shtt pm
-		Time: 14:48:39
+		Time: 15:00:37
 		Event: Gps
-		Speed: 0 mph
-		Direction: 0 degrees from north
+		Speed: 15.7 mph
+		Direction: 181.8 degrees from north
 		Accuracy: 0 feet
-		Odometer: 74884.4
+		Odometer: 74884.7
 		
 	              </description></Placemark>
 	          <Placemark>
-	             <styleUrl>#live_gps</styleUrl>
+	             <styleUrl>#live_routeaccept</styleUrl>
+	             <name>129 (2 City Shtt pm)</name>
+	             <visibility>1</visibility>
+	             <Point>
+	               <coordinates>-82.48282700000001,40.390308</coordinates>
+	             </Point>
+	              <description>
+	                   
+		Run: 2 City Shtt pm
+		Time: 15:00:37
+		Event: Cluster accept
+		Speed: 15.7 mph
+		Direction: 181.8 degrees from north
+		Accuracy: 0 feet
+		Odometer: 74884.7
+		
+	              </description></Placemark>
+	          <Placemark>
+	             <styleUrl>#live_pullin</styleUrl>
 	             <name>130 (ALL DAY - PM)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.61696600000002,40.350872</coordinates>
+	               <coordinates>-82.48694599999999,40.386754</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: ALL DAY - PM
-		Time: 14:48:51
-		Event: Gps
-		Speed: 54.6 mph
-		Direction: 77 degrees from north
+		Time: 14:59:20
+		Event: Pull In
+		Speed: 0.9 mph
+		Direction: 68.4 degrees from north
 		Accuracy: 0 feet
-		Odometer: 89347.1
+		Odometer: 89352
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -967,17 +985,17 @@
 	             <name>131 (4 Rainbow shttl)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.485052,40.3946</coordinates>
+	               <coordinates>-82.49132499999999,40.398629</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: 4 Rainbow shttl
-		Time: 14:49:06
+		Time: 15:00:58
 		Event: Gps
-		Speed: 9.2 mph
-		Direction: 277.4 degrees from north
+		Speed: 0 mph
+		Direction: 17.6 degrees from north
 		Accuracy: 0 feet
-		Odometer: 55990.3
+		Odometer: 55990.9
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -1021,17 +1039,35 @@
 	             <name>137 (Village PM)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.439867,40.404113</coordinates>
+	               <coordinates>-82.44085500000001,40.404044</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: Village PM
-		Time: 14:48:51
+		Time: 15:01:03
 		Event: Gps
 		Speed: 0 mph
-		Direction: 236.8 degrees from north
+		Direction: 197.5 degrees from north
 		Accuracy: 0 feet
-		Odometer: 63760.9
+		Odometer: 63761
+		
+	              </description></Placemark>
+	          <Placemark>
+	             <styleUrl>#live_departure</styleUrl>
+	             <name>137 (Village PM)</name>
+	             <visibility>1</visibility>
+	             <Point>
+	               <coordinates>-82.44085500000001,40.404044</coordinates>
+	             </Point>
+	              <description>
+	                   
+		Run: Village PM
+		Time: 15:01:03
+		Event: Stop departure
+		Speed: 0 mph
+		Direction: 197.5 degrees from north
+		Accuracy: 0 feet
+		Odometer: 63761
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -1053,21 +1089,21 @@
 		
 	              </description></Placemark>
 	          <Placemark>
-	             <styleUrl>#live_gps</styleUrl>
+	             <styleUrl>#live_departure</styleUrl>
 	             <name>141 (PM 4)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.426853,40.397255</coordinates>
+	               <coordinates>-82.45317,40.401405</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: PM 4
-		Time: 14:48:40
-		Event: Gps
-		Speed: 31.1 mph
-		Direction: 258.4 degrees from north
+		Time: 15:00:03
+		Event: Stop departure
+		Speed: 0 mph
+		Direction: 0 degrees from north
 		Accuracy: 0 feet
-		Odometer: 16718.1
+		Odometer: 16720
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -1075,17 +1111,17 @@
 	             <name>142 (MID DAY 1)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.445126,40.39118100000001</coordinates>
+	               <coordinates>-82.44285499999998,40.403539</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: MID DAY 1
-		Time: 14:49:09
+		Time: 15:00:37
 		Event: Gps
-		Speed: 13.6 mph
-		Direction: 4.7 degrees from north
+		Speed: 0 mph
+		Direction: 145.3 degrees from north
 		Accuracy: 0 feet
-		Odometer: 10782.4
+		Odometer: 10784.1
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -1093,17 +1129,17 @@
 	             <name>143 (MTV-Gamb Day)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.39683099999999,40.376922</coordinates>
+	               <coordinates>-82.478377,40.391251</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: MTV-Gamb Day
-		Time: 14:48:56
+		Time: 15:01:02
 		Event: Gps
-		Speed: 0 mph
-		Direction: 0 degrees from north
+		Speed: 30 mph
+		Direction: 288.9 degrees from north
 		Accuracy: 0 feet
-		Odometer: 216904.7
+		Odometer: 216909.3
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -1111,15 +1147,15 @@
 	             <name>144 (AM 5)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.486502,40.387007</coordinates>
+	               <coordinates>-82.48649900000001,40.386986</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: AM 5
-		Time: 14:49:07
+		Time: 15:01:07
 		Event: Gps
 		Speed: 0 mph
-		Direction: 105.6 degrees from north
+		Direction: 241.8 degrees from north
 		Accuracy: 0 feet
 		Odometer: 26346.4
 		
