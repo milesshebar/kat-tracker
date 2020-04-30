@@ -877,17 +877,35 @@
 	             <name>124 (MTV-Gamb Evening)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.400435,40.385837</coordinates>
+	               <coordinates>-82.395269,40.376351</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: MTV-Gamb Evening
-		Time: 20:50:58
+		Time: 20:56:24
 		Event: Gps
-		Speed: 40 mph
-		Direction: 150.2 degrees from north
+		Speed: 13.9 mph
+		Direction: 181.1 degrees from north
 		Accuracy: 0 feet
-		Odometer: 132225.2
+		Odometer: 132226.2
+		
+	              </description></Placemark>
+	          <Placemark>
+	             <styleUrl>#live_departure</styleUrl>
+	             <name>124 (MTV-Gamb Evening)</name>
+	             <visibility>1</visibility>
+	             <Point>
+	               <coordinates>-82.395269,40.376351</coordinates>
+	             </Point>
+	              <description>
+	                   
+		Run: MTV-Gamb Evening
+		Time: 20:56:24
+		Event: Stop departure
+		Speed: 13.9 mph
+		Direction: 181.1 degrees from north
+		Accuracy: 0 feet
+		Odometer: 132226.2
 		
 	              </description></Placemark>
 	          <Placemark>
