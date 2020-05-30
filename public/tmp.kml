@@ -837,21 +837,21 @@
 	</StyleMap>
 
 	          <Placemark>
-	             <styleUrl>#live_departure</styleUrl>
+	             <styleUrl>#live_gps</styleUrl>
 	             <name>121 (SATURDAY 2)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.53001999999998,40.361495</coordinates>
+	               <coordinates>-82.50729,40.383421</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: SATURDAY 2
-		Time: 11:24:12
-		Event: Stop departure
-		Speed: 8.3 mph
-		Direction: 124 degrees from north
+		Time: 11:29:33
+		Event: Gps
+		Speed: 40.7 mph
+		Direction: 7.6 degrees from north
 		Accuracy: 0 feet
-		Odometer: 180475.3
+		Odometer: 180477.8
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -859,17 +859,35 @@
 	             <name>128 (SAT SHUTTLE 1)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.459702,40.40012999999999</coordinates>
+	               <coordinates>-82.459787,40.400146</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: SAT SHUTTLE 1
-		Time: 11:24:35
+		Time: 11:29:21
 		Event: Gps
-		Speed: 0.4 mph
-		Direction: 234.7 degrees from north
+		Speed: 0 mph
+		Direction: 266.7 degrees from north
 		Accuracy: 0 feet
-		Odometer: 60151.7
+		Odometer: 60151.8
+		
+	              </description></Placemark>
+	          <Placemark>
+	             <styleUrl>#live_routeaccept</styleUrl>
+	             <name>128 (SAT SHUTTLE 1)</name>
+	             <visibility>1</visibility>
+	             <Point>
+	               <coordinates>-82.459787,40.400146</coordinates>
+	             </Point>
+	              <description>
+	                   
+		Run: SAT SHUTTLE 1
+		Time: 11:29:21
+		Event: Cluster accept
+		Speed: 0 mph
+		Direction: 266.7 degrees from north
+		Accuracy: 0 feet
+		Odometer: 60151.8
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -877,15 +895,15 @@
 	             <name>130 (SATURDAY 1)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.443827,40.40085</coordinates>
+	               <coordinates>-82.44383900000001,40.400839000000005</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: SATURDAY 1
-		Time: 11:24:29
+		Time: 11:29:31
 		Event: Gps
-		Speed: 0.2 mph
-		Direction: 61.9 degrees from north
+		Speed: 0.9 mph
+		Direction: 15.6 degrees from north
 		Accuracy: 0 feet
 		Odometer: 924902.9
 		
@@ -895,17 +913,17 @@
 	             <name>137 (SATURDAY 4)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.501338,40.39838</coordinates>
+	               <coordinates>-82.515083,40.367297</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: SATURDAY 4
-		Time: 11:24:42
+		Time: 11:29:42
 		Event: Gps
-		Speed: 30.6 mph
-		Direction: 215.1 degrees from north
+		Speed: 54.6 mph
+		Direction: 230.8 degrees from north
 		Accuracy: 0 feet
-		Odometer: 66591.8
+		Odometer: 66594.3
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -913,17 +931,17 @@
 	             <name>141 (PM 4)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.486821,40.386699</coordinates>
+	               <coordinates>-82.486845,40.38669</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: PM 4
-		Time: 11:24:42
+		Time: 11:29:44
 		Event: Gps
-		Speed: 0.2 mph
-		Direction: 311.1 degrees from north
+		Speed: 0 mph
+		Direction: 264.9 degrees from north
 		Accuracy: 0 feet
-		Odometer: 19490.1
+		Odometer: 19490.2
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -931,17 +949,17 @@
 	             <name>144 (SATURDAY 6)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.456609,40.400053</coordinates>
+	               <coordinates>-82.486579,40.394507</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: SATURDAY 6
-		Time: 11:24:24
+		Time: 11:29:26
 		Event: Gps
-		Speed: 15.7 mph
-		Direction: 253 degrees from north
+		Speed: 9.6 mph
+		Direction: 204.2 degrees from north
 		Accuracy: 0 feet
-		Odometer: 29622.2
+		Odometer: 29623.9
 		
 	              </description></Placemark></Document>
 	</kml>
