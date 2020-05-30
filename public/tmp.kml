@@ -837,57 +837,39 @@
 	</StyleMap>
 
 	          <Placemark>
-	             <styleUrl>#live_gps</styleUrl>
+	             <styleUrl>#live_departure</styleUrl>
 	             <name>121 (SATURDAY 2)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.50729,40.383421</coordinates>
+	               <coordinates>-82.458447,40.400693</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: SATURDAY 2
-		Time: 11:29:33
-		Event: Gps
-		Speed: 40.7 mph
-		Direction: 7.6 degrees from north
+		Time: 12:59:16
+		Event: Stop departure
+		Speed: 1.6 mph
+		Direction: 269.1 degrees from north
 		Accuracy: 0 feet
-		Odometer: 180477.8
+		Odometer: 180492.9
 		
 	              </description></Placemark>
 	          <Placemark>
-	             <styleUrl>#live_gps</styleUrl>
+	             <styleUrl>#live_arrival</styleUrl>
 	             <name>128 (SAT SHUTTLE 1)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.459787,40.400146</coordinates>
+	               <coordinates>-82.49383,40.406743</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: SAT SHUTTLE 1
-		Time: 11:29:21
-		Event: Gps
-		Speed: 0 mph
-		Direction: 266.7 degrees from north
+		Time: 12:59:39
+		Event: Stop arrival
+		Speed: 4.5 mph
+		Direction: 208.3 degrees from north
 		Accuracy: 0 feet
-		Odometer: 60151.8
-		
-	              </description></Placemark>
-	          <Placemark>
-	             <styleUrl>#live_routeaccept</styleUrl>
-	             <name>128 (SAT SHUTTLE 1)</name>
-	             <visibility>1</visibility>
-	             <Point>
-	               <coordinates>-82.459787,40.400146</coordinates>
-	             </Point>
-	              <description>
-	                   
-		Run: SAT SHUTTLE 1
-		Time: 11:29:21
-		Event: Cluster accept
-		Speed: 0 mph
-		Direction: 266.7 degrees from north
-		Accuracy: 0 feet
-		Odometer: 60151.8
+		Odometer: 60163.4
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -895,17 +877,17 @@
 	             <name>130 (SATURDAY 1)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.44383900000001,40.400839000000005</coordinates>
+	               <coordinates>-82.489335,40.394782000000006</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: SATURDAY 1
-		Time: 11:29:31
+		Time: 12:59:43
 		Event: Gps
-		Speed: 0.9 mph
-		Direction: 15.6 degrees from north
+		Speed: 1.6 mph
+		Direction: 249.9 degrees from north
 		Accuracy: 0 feet
-		Odometer: 924902.9
+		Odometer: 924911.3
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -913,17 +895,17 @@
 	             <name>137 (SATURDAY 4)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.515083,40.367297</coordinates>
+	               <coordinates>-82.487427,40.357464</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: SATURDAY 4
-		Time: 11:29:42
+		Time: 12:59:44
 		Event: Gps
-		Speed: 54.6 mph
-		Direction: 230.8 degrees from north
+		Speed: 33.6 mph
+		Direction: 65.4 degrees from north
 		Accuracy: 0 feet
-		Odometer: 66594.3
+		Odometer: 66642.7
 		
 	              </description></Placemark>
 	          <Placemark>
@@ -931,35 +913,35 @@
 	             <name>141 (PM 4)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.486845,40.38669</coordinates>
+	               <coordinates>-82.486825,40.38669</coordinates>
 	             </Point>
 	              <description>
 	                   
 		Run: PM 4
-		Time: 11:29:44
+		Time: 12:59:44
 		Event: Gps
-		Speed: 0 mph
-		Direction: 264.9 degrees from north
+		Speed: 0.4 mph
+		Direction: 346.3 degrees from north
 		Accuracy: 0 feet
-		Odometer: 19490.2
+		Odometer: 19490.5
 		
 	              </description></Placemark>
 	          <Placemark>
-	             <styleUrl>#live_gps</styleUrl>
-	             <name>144 (SATURDAY 6)</name>
+	             <styleUrl>#live_pullin</styleUrl>
+	             <name>144 (AM 5)</name>
 	             <visibility>1</visibility>
 	             <Point>
-	               <coordinates>-82.486579,40.394507</coordinates>
+	               <coordinates>-82.48665,40.387109</coordinates>
 	             </Point>
 	              <description>
 	                   
-		Run: SATURDAY 6
-		Time: 11:29:26
-		Event: Gps
-		Speed: 9.6 mph
-		Direction: 204.2 degrees from north
+		Run: AM 5
+		Time: 11:32:21
+		Event: Pull In
+		Speed: 0.2 mph
+		Direction: 277.5 degrees from north
 		Accuracy: 0 feet
-		Odometer: 29623.9
+		Odometer: 29624.4
 		
 	              </description></Placemark></Document>
 	</kml>
